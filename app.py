@@ -278,6 +278,8 @@ with gr.Blocks(title="CodeRefine AI") as demo:
 # =========================
 # LAUNCH
 # =========================
+port = int(os.environ.get("PORT", 10000))
 demo.launch(server_name="0.0.0.0", server_port=port)
+
 
 
