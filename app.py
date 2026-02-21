@@ -278,5 +278,6 @@ with gr.Blocks(title="CodeRefine AI") as demo:
 # =========================
 # LAUNCH
 # =========================
-demo.launch(server_name="0.0.0.0", server_port=10000)
+demo.launch(server_name="0.0.0.0", server_port=port)
+
 
